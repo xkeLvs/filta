@@ -1,0 +1,35 @@
+.masthead {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('http://via.placeholder.com/1920x650');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#accordionData {
+    display: none;
+}
+
+#tabs,
+#tabsContent {
+    visibility: visible;
+}
+
+@media only screen and (max-width: 600px) {
+    .masthead {
+        background-image: url('http://via.placeholder.com/600x600');
+        height: 100vh;
+        min-height: 500px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    #accordionData {
+        display: inline;
+    }
+    #tabs,
+    #tabsContent {
+        display: none;
+    }
+}
