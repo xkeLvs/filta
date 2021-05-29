@@ -20,5 +20,6 @@ npm run build
 npm run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### Answer to banana
++ +"a" is condider as addtional the + "a" is not a number so it will return NaN string so that the answer will be baNaNa to lowerstring banana
